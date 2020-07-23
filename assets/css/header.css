@@ -1,0 +1,51 @@
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-container {
+    box-sizing: border-box;
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-banner {
+    width: 250px;
+    height: 80px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+.nav-item {
+    border-right: 1px solid #ddd;
+    padding: 0px 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-item:last-child {
+    border-right: none;
+    padding-right: 0px;
+}
