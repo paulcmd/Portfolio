@@ -26,7 +26,6 @@ body {
     flex: 1 0 auto;
 }
 
-/*second container to make sure white background is only around page content*/
 .just-text {
     display: flex;
     padding: 30px;
@@ -35,7 +34,6 @@ body {
     flex-direction: column;
 }
 
-/*add the pretty page title to the top of the page content*/
 .page-title {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
